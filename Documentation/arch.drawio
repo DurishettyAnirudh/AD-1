@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
+  <diagram name="Page-1" id="yLpt9yjlWBfqFf052z8-">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-1" value="User Input" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="83" y="20" width="134" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-2" value="ChatGPT" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="89" y="146" width="122" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-3" value="Script Selection and Customization" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="273" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-4" value="EdgeTTS" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="423" width="121" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-5" value="Whisper" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="91" y="550" width="117" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-6" value="Python Video Query Script" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="26" y="676" width="248" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-7" value="Video Links" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="820" width="141" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-8" value="Render Engine" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="69" y="964" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-9" value="Preview and Export" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="51" y="1090" width="199" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-10" value="Social Media Platforms" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1270" width="222" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-11" value="Keywords" style="curved=1;startArrow=circle;startFill=0;endArrow=circle;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-1" target="aPM2IkPOzW90RBr_08Dm-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-12" value="Generates Script" style="curved=1;startArrow=none;endArrow=circle;endFill=0;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-2" target="aPM2IkPOzW90RBr_08Dm-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-13" value="Finalized Script" style="curved=1;startArrow=none;endArrow=circle;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-3" target="aPM2IkPOzW90RBr_08Dm-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-14" value="Voiceover Generation" style="curved=1;startArrow=none;endArrow=circle;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-4" target="aPM2IkPOzW90RBr_08Dm-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-15" value="Timed Captions" style="curved=1;startArrow=none;endArrow=circle;endFill=0;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-5" target="aPM2IkPOzW90RBr_08Dm-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-16" value="Searches Video Backgrounds" style="curved=1;startArrow=none;endArrow=circle;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-6" target="aPM2IkPOzW90RBr_08Dm-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-17" value="Combined with Voiceover and Captions" style="curved=1;startArrow=none;endArrow=circle;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-7" target="aPM2IkPOzW90RBr_08Dm-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-18" value="Final Video Output" style="curved=1;startArrow=none;endArrow=circle;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-8" target="aPM2IkPOzW90RBr_08Dm-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPM2IkPOzW90RBr_08Dm-19" value="Upload" style="curved=1;startArrow=none;endArrow=circle;endFill=0;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="aPM2IkPOzW90RBr_08Dm-9" target="aPM2IkPOzW90RBr_08Dm-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

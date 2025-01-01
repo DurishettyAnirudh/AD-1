@@ -12,3 +12,12 @@ the basic model architecture is like this :
 6) then all these: voiceover audio file, captions, bg video links, and video server name will be given to the render engine. It does all the editing work and provides final output.
 and this is not final we want to develop and add make a complete ai content creator
 
+
+These are the ppt contents:
+1) introduction
+2) Purpose of the project
+3) Existing system
+4) proposed system
+5) software requirements and hardware requirements
+6) conclusion
+PPT Link :- https://www.canva.com/design/DAGa2JAIRss/-2YBYNWJJJh_Ya14Tfk0wQ/edit
