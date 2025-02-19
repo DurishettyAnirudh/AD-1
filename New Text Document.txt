@@ -1,8 +1,0 @@
-import os
-
-#for text generation, use openai or groq. groq model used: "llama3-70b-8192"
-#note: use just one
-os.environ["OPENAI_KEY"]="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"
-os.environ['GROQ_API_KEY'] = "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"
-
-os.environ["PEXELS_KEY"]="ogYa37OKtgBPnPomuCnFko7CIqz8YPH0Lq664ZkOCtSfVtrU0ZCatDfa"
