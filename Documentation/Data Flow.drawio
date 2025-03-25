@@ -1,0 +1,372 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="XbgA6M6gNxadNY5rT0c_">
+    <mxGraphModel dx="3430" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="38lfkjZavzpQjEyOXct2-25" value="🧑 User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="399" y="-260" width="119" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-26" value="🖥️ VideoMaker GUI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-66" y="-134" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-27" value="📜 Script Generator (GPT)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-552" y="10" width="252" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-28" value="✏️ Script Editor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="149" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-29" value="🔊 Voiceover Generator (EdgeTTS)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-391" y="305" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-30" value="📝 Caption Generator (Whisper)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="305" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-31" value="🎤 Voice Settings" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-94" y="149" width="187" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-32" value="🎵 Audio File" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="455" width="157" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-33" value="📄 Caption Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="455" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-34" value="🎬 Video Preferences" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="224" y="10" width="216" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-35" value="🔍 Video Search (Pexels API)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="202" y="137" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-36" value="🎞️ Stock Videos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="361" y="317" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-37" value="🎬 Video Renderer (MoviePy &amp; FFmpeg)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-108" y="582" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-38" value="📂 Final Video (MP4)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="173" y="732" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-39" value="📑 System Logs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="9" y="317" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-40" value="Inputs Topic/Keyword" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.66;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-25" target="38lfkjZavzpQjEyOXct2-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="34" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-41" value="Sends Topic" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-26" target="38lfkjZavzpQjEyOXct2-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-426" y="-35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-42" value="Allows Script Editing" style="curved=1;startArrow=none;endArrow=block;exitX=0.08;exitY=1.01;entryX=1;entryY=0.18;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-26" target="38lfkjZavzpQjEyOXct2-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-190" y="-35" />
+              <mxPoint x="-190" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-43" value="Generates Script" style="curved=1;startArrow=none;endArrow=block;exitX=0.23;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-27" target="38lfkjZavzpQjEyOXct2-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-582" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-44" value="Final Script" style="curved=1;startArrow=none;endArrow=block;exitX=0.4;exitY=1;entryX=0;entryY=0.12;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-28" target="38lfkjZavzpQjEyOXct2-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-635" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-45" value="Final Script" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=1;entryX=0.76;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-28" target="38lfkjZavzpQjEyOXct2-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-524" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-46" value="Allows Voice Selection &amp; Speed Adjustment" style="curved=1;startArrow=none;endArrow=block;exitX=0.44;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-26" target="38lfkjZavzpQjEyOXct2-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="-35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-47" value="Applies Settings" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.97;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-31" target="38lfkjZavzpQjEyOXct2-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-48" value="Saves Audio File" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-29" target="38lfkjZavzpQjEyOXct2-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-49" value="Generates Timed Captions" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-30" target="38lfkjZavzpQjEyOXct2-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-50" value="Allows Video Settings Modification" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-26" target="38lfkjZavzpQjEyOXct2-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332" y="-35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-51" value="Finalized Video Preferences" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-34" target="38lfkjZavzpQjEyOXct2-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-52" value="Finds Relevant Videos" style="curved=1;startArrow=none;endArrow=block;exitX=0.19;exitY=1;entryX=0;entryY=0.02;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-35" target="38lfkjZavzpQjEyOXct2-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-53" value="Background Video Clips" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.2;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-36" target="38lfkjZavzpQjEyOXct2-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-54" value="Overlay Captions" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.31;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-33" target="38lfkjZavzpQjEyOXct2-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-670" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-55" value="Adds Voiceover" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.05;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-32" target="38lfkjZavzpQjEyOXct2-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-261" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-56" value="Allows Video Preview &amp; Final Edits" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=1;entryY=0.27;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-26" target="38lfkjZavzpQjEyOXct2-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="592" y="-35" />
+              <mxPoint x="592" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-57" value="Generates Final Video" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.02;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-37" target="38lfkjZavzpQjEyOXct2-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="22" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-58" value="Download or Share" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.24;entryX=1;entryY=0.73;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-38" target="38lfkjZavzpQjEyOXct2-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="759" y="696" />
+              <mxPoint x="759" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-59" value="Logs Queries &amp; Responses" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.59;exitY=1.01;entryX=0;entryY=0.21;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-27" target="38lfkjZavzpQjEyOXct2-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-375" y="101" />
+              <mxPoint x="-375" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-60" value="Logs Queries &amp; Responses" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.94;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-35" target="38lfkjZavzpQjEyOXct2-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-61" value="🧑 User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1193" width="119" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-62" value="🤖 AI Video Generator System" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="499" y="1181" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-63" value="📝 Enter Topic &amp; Generate Script" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="595" y="1331" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-64" value="✏️ Edit Script" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="602" y="1482" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-65" value="🎤 Generate Voiceover" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="638" y="1638" width="228" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-66" value="🔊 Adjust Voice Settings" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1794" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-67" value="📄 Generate Captions" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1638" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-68" value="🎞️ Search for Background Videos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-327" y="1626" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-69" value="🎬 Customize Video Settings" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-17" y="1626" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-70" value="🎥 Render Final Video" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="84" y="1794" width="221" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-71" value="👀 Preview Video" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-6" y="1938" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-72" value="📂 Download/Share Video" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="2064" width="249" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-73" value="📑 Log System Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-389" y="1938" width="205" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-74" value="Inputs Topic" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-61" target="38lfkjZavzpQjEyOXct2-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="1295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-75" value="Modifies Script" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=1;entryX=0;entryY=0.16;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-61" target="38lfkjZavzpQjEyOXct2-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1295" />
+              <mxPoint x="400" y="1446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-76" value="Chooses Voice" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=1;entryX=0;entryY=0.1;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-61" target="38lfkjZavzpQjEyOXct2-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="278" y="1295" />
+              <mxPoint x="278" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-77" value="Adjusts Video Preferences" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-61" target="38lfkjZavzpQjEyOXct2-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="113" y="1295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-78" value="Previews Video" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.61;entryX=0;entryY=0.23;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-61" target="38lfkjZavzpQjEyOXct2-71">
+          <mxGeometry x="0.0278" y="51" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-381" y="1295" />
+              <mxPoint x="-381" y="1893" />
+            </Array>
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-79" value="Downloads/ Shares Video" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.59;entryX=0.17;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-61" target="38lfkjZavzpQjEyOXct2-72">
+          <mxGeometry x="-0.1613" y="126" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-494" y="1295" />
+              <mxPoint x="-494" y="2028" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-80" value="Generates Initial Script" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.61;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-63" target="38lfkjZavzpQjEyOXct2-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="1446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-81" value="Final Script Sent to Voice Generator" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-64" target="38lfkjZavzpQjEyOXct2-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="752" y="1581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-82" value="Final Script Sent to Caption Generator" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.93;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-64" target="38lfkjZavzpQjEyOXct2-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="1581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-83" value="Produces Audio File" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1;entryX=0.76;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-65" target="38lfkjZavzpQjEyOXct2-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="838" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-84" value="Applies Voice Settings" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0;entryX=0.38;entryY=1;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-66" target="38lfkjZavzpQjEyOXct2-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="666" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-85" value="Creates Timed Captions" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.91;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-67" target="38lfkjZavzpQjEyOXct2-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-86" value="Fetches Relevant Background Videos" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=1;entryX=0;entryY=0.05;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-68" target="38lfkjZavzpQjEyOXct2-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-134" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-87" value="Applies Video Preferences" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-69" target="38lfkjZavzpQjEyOXct2-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="113" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-88" value="Compiles Video, Audio &amp; Captions" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=1;entryY=0.04;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-70" target="38lfkjZavzpQjEyOXct2-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="1893" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-89" value="Final Video Ready" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.13;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-71" target="38lfkjZavzpQjEyOXct2-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="88" y="2028" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-90" value="Stores Metadata &amp; Processing Logs" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=1;entryX=0.96;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-70" target="38lfkjZavzpQjEyOXct2-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-33" y="1893" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38lfkjZavzpQjEyOXct2-91" value="Logs Video Search Queries" style="curved=1;startArrow=none;endArrow=block;exitX=0.42;exitY=1;entryX=0.58;entryY=0;rounded=0;" edge="1" parent="1" source="38lfkjZavzpQjEyOXct2-68" target="38lfkjZavzpQjEyOXct2-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-241" y="1749" />
+              <mxPoint x="-241" y="1893" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
