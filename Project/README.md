@@ -1,66 +1,222 @@
-# Text To Video AI 🔥
+# 🎥 **AI Video Generator**
 
-Generate video from text using AI
+🚀 **AI Video Generator** automates the creation of high-quality videos by combining **script generation, TTS voiceovers, captions, and stock footage** into a single workflow. It utilizes **OpenAI/Groq** for script generation, **EdgeTTS** for voiceovers, **Whisper** for captions, and **MoviePy** for seamless video rendering.
 
-If you wish to add Text to Video into your application, here is an api to create video from text :- https://docs.vadoo.tv/docs/guide/create-an-ai-video
+---
 
-### Youtube Tutorial -> https://www.youtube.com/watch?v=AXo6VfRUgic
+## 🔥 **Features**
 
-### Medium tutorial -> https://medium.com/@anilmatcha/text-to-video-ai-how-to-create-videos-for-free-a-complete-guide-a25c91de50b8
+✅ **Automated Script Generation:** Uses ChatGPT/Groq to create contextual scripts.\
+✅ **Text-to-Speech (TTS) Voiceovers:** Realistic voice synthesis with EdgeTTS.\
+✅ **Timed Captions:** Accurate captioning with Whisper AI.\
+✅ **Stock Footage Retrieval:** Fetches free, high-quality videos from Pexels.\
+✅ **Video Rendering:** Combines all elements into a polished MP4 video.\
+✅ **Logging:** Tracks all GPT and Pexels API calls for auditing.
 
-### Demo Video
+---
 
-https://github.com/user-attachments/assets/1e440ace-8560-4e12-850e-c532740711e7
+## ⚙️ **Tech Stack**
 
-### 🌟 Show Support
+- **Python 3.11**
+- **OpenAI GPT-4o / Groq LLaMA3** for script generation
+- **EdgeTTS** for text-to-speech voiceovers
+- **Pexels API** for stock video retrieval
+- **Whisper** for captioning
+- **MoviePy** for video rendering
+- **JSON & Logging** for tracking API responses
 
-If you enjoy using Text to Video AI, we'd appreciate your support with a star ⭐ on our repository. Your encouragement is invaluable and inspires us to continually improve and expand Text to Video AI. Thank you, and happy content creation! 🎉
+---
 
-[![GitHub star chart](https://img.shields.io/github/stars/SamurAIGPT/Text-To-Video-AI?style=social)](https://github.com/SamurAIGPT/Text-To-Video-AI/stargazers)
-
-### Steps to run
-
-Run the following steps
+## 📂 **Project Structure**
 
 ```
-export OPENAI_KEY="api-key"
-export PEXELS_KEY="pexels-key"
-
-pip install -r requirements.text
-
-python app.py "Topic name"
+/Project  
+ ├── app.py                      # Main entry point  
+ ├── VideoMaker.py               # Orchestrator script  
+ ├── requirements.txt            # Python dependencies  
+ ├── README.md                   # Documentation  
+ │  
+ ├── 📂 .logs                     # Logs for API requests  
+ │   ├── gpt_logs                 # Logs for GPT responses  
+ │   └── pexel_logs               # Logs for Pexels queries  
+ │  
+ ├── 📂 utility                   # Core modules  
+ │   ├── utils.py                  # Logging utilities  
+ │  
+ │   ├── 📂 audio                  # TTS voiceover module  
+ │   │   └── audio_generator.py    # Generates TTS voice  
+ │  
+ │   ├── 📂 captions               # Captioning module  
+ │   │   └── timed_captions_generator.py   # Generates captions with Whisper  
+ │  
+ │   ├── 📂 render                 # Video rendering module  
+ │   │   └── render_engine.py      # Combines video, captions, and audio  
+ │  
+ │   ├── 📂 script                 # Script generation  
+ │   │   └── script_generator.py   # GPT-based script generator  
+ │  
+ │   ├── 📂 video                  # Video search and selection  
+ │   │   ├── background_video_generator.py  # Fetches stock videos  
+ │   │   └── video_search_query_generator.py # Generates video search queries  
+ │  
+ └── rendered_video.mp4          # Output sample video  
 ```
 
-Output will be generated in rendered_video.mp4
+---
 
-### Quick Start
+## 🚀 **Installation**
 
-Without going through the installation hastle here is a simple way to generate videos from text
+### 🛠️ **1. Clone the Repository**
 
-For a simple way to run the code, checkout the [colab link](/Text_to_Video_example.ipynb)
+```bash
+git clone <YOUR_REPO_URL>
+cd ai-video-generator
+```
 
-To generate a video, just click on all the cells one by one. Setup your api keys for openai and pexels
+### 📦 **2. Create a Virtual Environment**
 
-## 💁 Contribution
+```bash
+python -m venv venv  
+source venv/bin/activate   # On Linux/Mac  
+venv\Scripts\activate      # On Windows  
+```
 
-As an open-source project we are extremely open to contributions. To get started raise an issue in Github or create a pull request
+### ⚙️ **3. Install Dependencies**
 
-### Other useful Video AI Projects
+```bash
+pip install -r requirements.txt
+```
 
-[AI Youtube Shorts generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator/)
+### 🔑 **4. Set Up Environment Variables**
 
-[Faceless Video Generator](https://github.com/SamurAIGPT/Faceless-Video-Generator)
+Create a `.env` file in the root directory with your **API keys**:
 
-[AI B-roll generator](https://github.com/Anil-matcha/AI-B-roll)
+```
+OPENAI_KEY=<YOUR_OPENAI_API_KEY>  
+PEXELS_KEY=<YOUR_PEXELS_API_KEY>  
+GROQ_API_KEY=<YOUR_GROQ_API_KEY>  # (optional)  
+```
 
-[AI video generator](https://www.vadoo.tv/ai-video-generator)
+---
 
-[Text to Video AI](https://www.vadoo.tv/text-to-video-ai)
+## ▶️ **Usage**
 
-[Autoshorts AI](https://www.vadoo.tv/autoshorts-ai)
+### 1️⃣ **Run the Main Script**
 
-[Pixverse alternative](https://www.vadoo.tv/pixverse-ai)
+To create a video, simply run:
 
-[Hailuo AI alternative](https://www.vadoo.tv/hailuo-ai)
+```bash
+python app.py
+```
 
-[Minimax AI alternative](https://www.vadoo.tv/minimax-ai)
+### 2️⃣ **Custom Execution**
+
+Run individual modules:
+
+```bash
+# Script Generation
+python utility/script/script_generator.py  
+
+# TTS Voiceover
+python utility/audio/audio_generator.py  
+
+# Captioning
+python utility/captions/timed_captions_generator.py  
+
+# Video Rendering
+python utility/render/render_engine.py  
+```
+
+---
+
+## 🔥 **Example Execution**
+
+1. The system generates a **script** based on the prompt.
+2. It creates **TTS audio** with EdgeTTS.
+3. Captions are generated with Whisper.
+4. **Pexels API** retrieves stock footage.
+5. The **MoviePy renderer** combines everything into a final video.
+6. The video is saved in the `/Project` directory as `rendered_video.mp4`.
+
+---
+
+## 🛠️ **Troubleshooting**
+
+✅ **Issue:** `ModuleNotFoundError: No module named 'dotenv'`\
+💡 **Solution:** Install dotenv using:
+
+```bash
+pip install python-dotenv
+```
+
+✅ **Issue:** `PEXELS_KEY` or `OPENAI_KEY` not recognized\
+💡 **Solution:** Double-check `.env` configuration and restart the terminal.
+
+✅ **Issue:** Whisper model missing\
+💡 **Solution:** Install Whisper with:
+
+```bash
+pip install whisper
+```
+
+---
+
+## 🔥 **Customization Tips**
+
+💡 **Change GPT Model:**\
+In `script_generator.py`, modify the model:
+
+```python
+model = "gpt-4o"  # GPT-4o  
+# OR  
+model = "llama3-70b-8192"  # Groq LLaMA  
+```
+
+💡 **Adjust Voiceover Style:**\
+Modify EdgeTTS parameters in `audio_generator.py`:
+
+```python
+rate='+10%'   # Faster speech  
+volume='+5%'  # Louder voice  
+```
+
+💡 **Modify Video Duration:**\
+In `background_video_generator.py`, change the duration:
+
+```python
+duration = 10  # Video length in seconds  
+```
+
+---
+
+## 🔥 **API References**
+
+- **OpenAI API:** [OpenAI](https://platform.openai.com/docs)
+- **Pexels API:** [Pexels](https://www.pexels.com/api/)
+- **Groq LLaMA API:** [Groq](https://groq.com)
+- **Whisper Model:** [OpenAI Whisper](https://openai.com/whisper/)
+- **MoviePy:** [MoviePy](https://zulko.github.io/moviepy/)
+
+---
+
+## 👥 **Contributors**
+
+- **[Your Name]** – *Project Lead*
+- **[Collaborator Name]** – *API Integration*
+- **[Collaborator Name]** – *Rendering Optimization*
+
+---
+
+## 🎯 **Future Improvements**
+
+✅ Add **multi-language support** for captions and voiceovers.\
+✅ Enhance **video search query accuracy** with NLP context.\
+✅ Implement **cloud-based rendering** for faster processing.\
+✅ Include **user interface** for easier video generation.
+
+---
+
+## 🛡️ **License**
+
+This project is licensed under the **MIT License** – see the `LICENSE` file for details.
+
