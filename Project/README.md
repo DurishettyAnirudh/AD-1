@@ -1,12 +1,12 @@
 # 🎥 **AI Video Generator**
 
-🚀 **AI Video Generator** automates the creation of high-quality videos by combining **script generation, TTS voiceovers, captions, and stock footage** into a single workflow. It utilizes **OpenAI/Groq** for script generation, **EdgeTTS** for voiceovers, **Whisper** for captions, and **MoviePy** for seamless video rendering.
+🚀 **AI Video Generator** automates the creation of high-quality videos by combining **script generation, TTS voiceovers, captions, and stock footage** into a single workflow. It utilizes **OpenAI** for script generation, **EdgeTTS** for voiceovers, **Whisper** for captions, and **MoviePy** for seamless video rendering.
 
 ---
 
 ## 🔥 **Features**
 
-✅ **Automated Script Generation:** Uses ChatGPT/Groq to create contextual scripts.\
+✅ **Automated Script Generation:** Uses ChatGPT  to create contextual scripts.\
 ✅ **Text-to-Speech (TTS) Voiceovers:** Realistic voice synthesis with EdgeTTS.\
 ✅ **Timed Captions:** Accurate captioning with Whisper AI.\
 ✅ **Stock Footage Retrieval:** Fetches free, high-quality videos from Pexels.\
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 
 ### 🔑 **4. Set Up Environment Variables**
 
-Create a `.env` file in the root directory with your **API keys**:
+Create a `Passwrds.py` file in the root directory with your **API keys**:
 
 ```
 OPENAI_KEY=<YOUR_OPENAI_API_KEY>  
@@ -106,7 +106,7 @@ GROQ_API_KEY=<YOUR_GROQ_API_KEY>  # (optional)
 To create a video, simply run:
 
 ```bash
-python app.py
+streamlit run VideoMaker.py
 ```
 
 ### 2️⃣ **Custom Execution**
@@ -193,7 +193,6 @@ duration = 10  # Video length in seconds
 
 - **OpenAI API:** [OpenAI](https://platform.openai.com/docs)
 - **Pexels API:** [Pexels](https://www.pexels.com/api/)
-- **Groq LLaMA API:** [Groq](https://groq.com)
 - **Whisper Model:** [OpenAI Whisper](https://openai.com/whisper/)
 - **MoviePy:** [MoviePy](https://zulko.github.io/moviepy/)
 
@@ -201,22 +200,8 @@ duration = 10  # Video length in seconds
 
 ## 👥 **Contributors**
 
-- **[Your Name]** – *Project Lead*
-- **[Collaborator Name]** – *API Integration*
-- **[Collaborator Name]** – *Rendering Optimization*
+- **D. Anirudh** – *Project Lead* *API Integration*
 
 ---
 
-## 🎯 **Future Improvements**
-
-✅ Add **multi-language support** for captions and voiceovers.\
-✅ Enhance **video search query accuracy** with NLP context.\
-✅ Implement **cloud-based rendering** for faster processing.\
-✅ Include **user interface** for easier video generation.
-
----
-
-## 🛡️ **License**
-
-This project is licensed under the **MIT License** – see the `LICENSE` file for details.
 
