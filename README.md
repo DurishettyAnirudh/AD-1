@@ -30,4 +30,6 @@ All interactions are built using **Streamlit**, providing a smooth, stage-wise u
 - FFmpeg
 - Pexels API
 
-## 📂 Directory Structure
+## 📂 Execution Video
+
+[[Execution.mp4]]
