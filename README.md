@@ -32,4 +32,7 @@ All interactions are built using **Streamlit**, providing a smooth, stage-wise u
 
 ## 📂 Execution Video
 
-[[Execution.mp4]]
+<video width="600" controls>
+  <source src="Executionlow.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
